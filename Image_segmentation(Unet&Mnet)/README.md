@@ -8,7 +8,7 @@ https://devkor.tistory.com/entry/%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84-%ED%86%B5%
 1. 기본 틀 : ENcoder + Decorder
 2. Encorder : CNN 처럼 분석을 통해 픽셀 값들을 분류
 3. Decorder : 분류된 값을 원래 사이즈의 사진으로 복원(up sampling+skip combining)
-
+즉, Convolution과 pooling을 거치고, dense층에서 flatten과 기법을 통해 잃어버린 위치정보를 유지하기 위해서 1x1 ConvLayer로 유지시키는 기법
 
   - 추가 개념공부
     - Up-sampling with Transposed Convolution
