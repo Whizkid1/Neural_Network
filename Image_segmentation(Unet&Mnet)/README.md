@@ -7,7 +7,7 @@ https://devkor.tistory.com/entry/%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84-%ED%86%B5%
 
 1. 기본 틀 : ENcoder + Decorder
 2. Encorder : CNN 처럼 분석을 통해 픽셀 값들을 분류
-3. Decorder : 분류된 값을 원래 사이즈의 사진으로 복원
+3. Decorder : 분류된 값을 원래 사이즈의 사진으로 복원(up sampling+skip combining)
 
 
   - 추가 개념공부
